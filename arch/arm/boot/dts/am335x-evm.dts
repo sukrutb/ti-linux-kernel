@@ -479,7 +479,7 @@
 	status = "okay";
 
 	blue-and-red-wiring = "crossed";
-
+	ti,no-idle-on-init;
 	port {
 		lcdc_0: endpoint@0 {
 			remote-endpoint = <&panel_0>;
